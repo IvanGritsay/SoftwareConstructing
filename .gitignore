@@ -1,0 +1,25 @@
+# Ignore Visual Studio files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build outputs
+bin/
+obj/
+.vs/
+# Ignore NuGet packages
+packages/
+*.nupkg
+# Uncomment if using package restore
+# !packages/repositories.config
+
+# Ignore test and publish artifacts
+TestResults/
+*.publishsettings
+*.pubxml
+
+# Ignore Rider and JetBrains files
+.idea/
+*.iml
